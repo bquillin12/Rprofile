@@ -37,3 +37,7 @@ library(a.package, character.only = TRUE)))
     x
 }
 
+# Plotly authentication API keys
+Sys.setenv("plotly_username"="bquillin12")
+Sys.setenv("plotly_api_key"="ixi89ev4mp")
+
