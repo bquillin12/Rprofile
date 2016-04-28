@@ -11,7 +11,7 @@ options(prompt = "R: ")
 if(interactive()){
 library(utils)
 library(Quandl)
-Quandl.auth("KfLaFR5RetJbGQSfLuts")
+Quandl.auth("#####")
 cat("\Successfully loaded Rprofile at", date(), "\n")
 }
 }
