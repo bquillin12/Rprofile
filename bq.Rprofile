@@ -20,7 +20,7 @@ cat("\Successfully loaded Rprofile at", date(), "\n")
 .Last <- function(){
 if(interactive()){
 hist_file <- Sys.getenv("R_HISTFILE")
-if(his_file=="") hist_file <- "~/.RHistory"
+if(hist_file=="") hist_file <- "~/.RHistory"
 cat("\nGoodbye at ", date(), "\n")
 }
 }
@@ -38,6 +38,6 @@ library(a.package, character.only = TRUE)))
 }
 
 # Plotly authentication API keys
-Sys.setenv("plotly_username"="bquillin12")
-Sys.setenv("plotly_api_key"="ixi89ev4mp")
+Sys.setenv("plotly_username"="xyz")
+Sys.setenv("plotly_api_key"="xyz")
 
