@@ -10,8 +10,6 @@ options(prompt = "R: ")
 .First <- function(){
 if(interactive()){
 library(utils)
-library(Quandl)
-Quandl.auth("#####")
 cat("\Successfully loaded Rprofile at", date(), "\n")
 }
 }
